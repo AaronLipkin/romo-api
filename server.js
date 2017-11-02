@@ -6,14 +6,10 @@ const bodyParser     = require('body-parser');
 app.use(bodyParser.json());
 
 let data = {
-	home: {
-		logo: "cowboys",
-		color: "#04254f"
-	},
-	away: {
-		logo: "chiefs",
-		color: "#e41a37"
-	}
+	homeLogo: "cowboys",
+	homeColor: "#04254f",
+	awayLogo: "chiefs",
+	awayColor: "#e41a37"
 }
 
 
